@@ -55,7 +55,7 @@
    git branch -M main
    git push -u origin main
 7. *Confirm the process*
-    Verify the process by visiting your github repositories. You will know if it's success when you see your commit message you put on step 3 "initial commit" in your project repo.
+- Verify the process by visiting your github repositories. You will know if it's success when you see your commit message you put on step 3 "initial commit" in your project repo.
 
 # 🌐 Steps for Vercel Deployment
 1. Push your project to GitHub
