@@ -20,7 +20,7 @@
 
 ## 🛠️ Technical Stack
 
-| Category      | Technology                             |
+| Category      | Technology                              |
 |---------------|-----------------------------------------|
 | Frontend      | React + TypeScript                      |
 | Styling       | Tailwind CSS                            |
@@ -31,27 +31,28 @@
 | Map           | Leaflet (via Map component)             |
 | Deployment    | GitHub (for backup) + Vercel (hosting)  |
 
-# Steps to Push Project to GitHub (Safe Copy & Deployment)
-1. Initialize a Git Repository 
-    In the root of your project folder, run "git init"
+# 🗂️ Steps to Push Project to GitHub (Safe Copy & Deployment)
+1. **Initialize a Git Repository**
+   ```bash
+   git init
 2. Add All Project Files
-    run - "git add ."
+   git add .
 3. Commit Your Changes
-    run - "git commit -m "Initial commit""
+   git commit -m "Initial commit"
 4. Create a New Repository on GitHub
-    4.1 Go to GitHub (https://github.com)
-    4.2 Click New repository
-    4.3 Set name (e.g., Dynamic-WebApp_PostWeb) and leave it empty (don’t add README, .gitignore, etc.)
-    4.4 Click Create Repository
+- Go to GitHub (https://github.com)
+- Click New repository
+- Set name (e.g., Dynamic-WebApp_PostWeb) and leave it empty (don’t add README, .gitignore, etc.)
+- Click Create Repository
 5. Connect Local Project to GitHub 
     (Please note to replace "your-username", and "repo-name" With your actual username and repo name. You can get this on your github repositories)
-    run - "git remote add origin https://github.com/<your-username>/<repo-name>.git"
+   git remote add origin https://github.com/<your-username>/<repo-name>.git
 6. Push to GitHub
-    run - "git branch -M main"
-    run - "git push -u origin main"
+   git branch -M main
+   git push -u origin main
 7. Verify the process by visiting your github repositories. You will know if it's success when you see your commit message you put on step 3 "initial commit" in your project repo.
 
-# Steps for Vercel Deployment
+# 🌐 Steps for Vercel Deployment
 1. Push your project to GitHub
 2. Go to https://vercel.com
 3. Login and click "New Project"
@@ -62,10 +63,12 @@
 8. Output directory: dist (for Vite) or build (for CRA)
 9. Deploy!
 
-# Team Contribution
-Nicole Hagos - Authentication system, deployment, backend APIs
-Liezel ardin - UI/UX Frontend Design for standard users
-Alyssa Dig - UI/UX Frontend Design for admin user
+# 👥 Team Contribution
+| Name           | Contribution                                             |
+|----------------|----------------------------------------------------------|
+| Nicole Hagos   | Authentication system, backend APIs, deployment setup    |
+| Liezel Ardin   | UI/UX design for standard users                          |
+| Alyssa Dig     | UI/UX design for admin dashboard and analytics           |
 
 # GitHub deployment link
     For source code please visit this link : https://github.com/nql2444/PostWeb_Dynamic-WebApp
