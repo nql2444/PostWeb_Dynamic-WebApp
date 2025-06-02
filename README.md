@@ -1,9 +1,9 @@
 # Dynamic-WebApp_PostWeb
 
-Project Description
+# Project Description
 PostWeb is a dynamic, role-based web application that simulates a mini social platform. It allows users to register, log in, and create/view posts. The platform includes separate experiences for regular users and administrators, with an admin dashboard that offers deeper insight through user and post analytics.
 
-Key Features
+# Key Features
 Authentication (Register/Login/Logout)
 Role-based Access Control (Admin vs. Standard User)
 Dashboard showing personal and global stats
@@ -13,7 +13,7 @@ Interactive Map with location saving
 Admin Analytics Dashboard with charts and stats
 Modern, Responsive UI using Tailwind + reusable components
 
-Technical Stack
+# Technical Stack
 Category - Technology
 Frontend - React + TypeScript
 Styling - Tailwind CSS
@@ -24,7 +24,7 @@ Icons/UX	- Lucide React, Custom Loader
 Map	- Leaflet (assumed via Map component)
 Deployment	- GitHub Pages / Vercel
 
-Steps to Push Project to GitHub (Safe Copy & Deployment)
+# Steps to Push Project to GitHub (Safe Copy & Deployment)
 1. Initialize a Git Repository 
     In the root of your project folder, run "git init"
 2. Add All Project Files
@@ -44,7 +44,7 @@ Steps to Push Project to GitHub (Safe Copy & Deployment)
     run - "git push -u origin main"
 7. Verify the process by visiting your github repositories. You will know if it's success when you see your commit message you put on step 3 "initial commit" in your project repo.
 
-Steps for Vercel Deployment
+# Steps for Vercel Deployment
 1. Push your project to GitHub
 2. Go to https://vercel.com
 3. Login and click "New Project"
@@ -55,13 +55,13 @@ Steps for Vercel Deployment
 8. Output directory: dist (for Vite) or build (for CRA)
 9. Deploy!
 
-Team Contribution
+# Team Contribution
 Nicole Hagos - Authentication system, deployment, backend APIs
 Liezel ardin - UI/UX Frontend Design for standard users
 Alyssa Dig - UI/UX Frontend Design for admin user
 
-GitHub deployment link
+# GitHub deployment link
     For source code please visit this link : https://github.com/nql2444/PostWeb_Dynamic-WebApp
 
-Vercel Web App deployment link
+# Vercel Web App deployment link
     This web app are deployed on vercel. If your interested to see the actual result please visit this link : https://post-web-dynamic-web-app.vercel.app/
