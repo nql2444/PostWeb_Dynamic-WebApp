@@ -1,28 +1,35 @@
 # Dynamic-WebApp_PostWeb
 
-# Project Description
-PostWeb is a dynamic, role-based web application that simulates a mini social platform. It allows users to register, log in, and create/view posts. The platform includes separate experiences for regular users and administrators, with an admin dashboard that offers deeper insight through user and post analytics.
+## 📌 Project Description
+**PostWeb** is a dynamic, role-based web application that simulates a mini social platform. It allows users to register, log in, and create/view posts. The platform includes separate experiences for regular users and administrators, with an admin dashboard that offers deeper insight through user and post analytics.
 
-# Key Features
-Authentication (Register/Login/Logout)
-Role-based Access Control (Admin vs. Standard User)
-Dashboard showing personal and global stats
-User Directory with search and profile views
-Post Management (view, filter, detail)
-Interactive Map with location saving
-Admin Analytics Dashboard with charts and stats
-Modern, Responsive UI using Tailwind + reusable components
+---
 
-# Technical Stack
-Category - Technology
-Frontend - React + TypeScript
-Styling - Tailwind CSS
-Routing	- React Router
-State/Data	- React Query + Local Storage
-Charts	- Recharts
-Icons/UX	- Lucide React, Custom Loader
-Map	- Leaflet (assumed via Map component)
-Deployment	- GitHub Pages / Vercel
+## ⭐ Key Features
+
+- 🔐 Authentication (Register/Login/Logout)
+- 🔑 Role-based Access Control (Admin vs. Standard User)
+- 📊 Dashboard showing personal and global stats
+- 📁 User Directory with search and profile views
+- 📝 Post Management (view, filter, detail)
+- 🗺️ Interactive Map with location saving
+- 📈 Admin Analytics Dashboard with charts and stats
+- 🎨 Modern, Responsive UI using Tailwind + reusable components
+
+---
+
+## 🛠️ Technical Stack
+
+| Category      | Technology                             |
+|---------------|-----------------------------------------|
+| Frontend      | React + TypeScript                      |
+| Styling       | Tailwind CSS                            |
+| Routing       | React Router                            |
+| State/Data    | React Query + Local Storage             |
+| Charts        | Recharts                                |
+| Icons/UX      | Lucide React, Custom Loader             |
+| Map           | Leaflet (via Map component)             |
+| Deployment    | GitHub (for backup) + Vercel (hosting)  |
 
 # Steps to Push Project to GitHub (Safe Copy & Deployment)
 1. Initialize a Git Repository 
