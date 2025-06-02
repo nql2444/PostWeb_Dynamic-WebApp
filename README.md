@@ -35,22 +35,27 @@
 1. **Initialize a Git Repository**
    ```bash
    git init
-2. Add All Project Files
+2. **Add All Project Files**
+   ```bash
    git add .
-3. Commit Your Changes
+3. **Commit Your Changes**
+   ```bash
    git commit -m "Initial commit"
-4. Create a New Repository on GitHub
+4. *Create a New Repository on GitHub*
 - Go to GitHub (https://github.com)
 - Click New repository
 - Set name (e.g., Dynamic-WebApp_PostWeb) and leave it empty (don’t add README, .gitignore, etc.)
 - Click Create Repository
-5. Connect Local Project to GitHub 
+5. **Connect Local Project to GitHub** 
     (Please note to replace "your-username", and "repo-name" With your actual username and repo name. You can get this on your github repositories)
+   ```bash
    git remote add origin https://github.com/<your-username>/<repo-name>.git
-6. Push to GitHub
+6. **Push to GitHub**
+   ```bash
    git branch -M main
    git push -u origin main
-7. Verify the process by visiting your github repositories. You will know if it's success when you see your commit message you put on step 3 "initial commit" in your project repo.
+7. *Confirm the process*
+    Verify the process by visiting your github repositories. You will know if it's success when you see your commit message you put on step 3 "initial commit" in your project repo.
 
 # 🌐 Steps for Vercel Deployment
 1. Push your project to GitHub
